@@ -132,8 +132,6 @@ main {
 
 .table-container {
   display: flex;
-  width: 100%;
-  justify-content: center;
 }
 .table p {
   width: 100px;
@@ -148,6 +146,7 @@ main {
   line-height: 1.9rem;
   letter-spacing: -0.01rem;
   justify-content: flex-start;
+  font-weight: 600;
 }
 .table-section_two p {
   color: var(--greygrey);
@@ -172,4 +171,43 @@ main {
 }
 .up {
   background-image: url("../assets/icons/trending-up.svg");
+}
+.table-update {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.table-update p {
+  background-color: var(--softOrange);
+  color: var(--warmBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.4rem;
+  width: 185px;
+  height: 35px;
+  border-radius: 8px;
+}
+.table-update b {
+  font-weight: bold;
+  margin-right: 3px;
+}
+.table-update p {
+  font-size: 1.4rem;
+}
+
+.idk {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.idk2 {
+  margin-top: 30px;
+}
+.table-container .Comisiones {
+  color: var(--secundaryBlue);
+}
+main .comisiones-update p {
+  background-color: var(--softBlue);
 }
