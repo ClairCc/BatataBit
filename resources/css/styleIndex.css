@@ -86,3 +86,21 @@ header img {
   margin-left: 10px;
   background-image: url("../assets/icons/down-arrow.svg");
 }
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--offWhite);
+}
+.main-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.main-container_title {
+  width: 90%;
+  min-width: 320px;
+  max-width: 900px;
+  margin: 0 auto;
+}
