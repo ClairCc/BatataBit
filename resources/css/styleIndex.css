@@ -211,3 +211,45 @@ main {
 main .comisiones-update p {
   background-color: var(--softBlue);
 }
+.main-product_details {
+  background-color: var(--warmBlack);
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-detail_logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+
+  background-image: url("../assets/icons/batata.svg");
+}
+.product-detail_title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0% auto;
+  margin-top: 30px;
+  text-align: center;
+}
+.product-detail_title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+
+  color: var(--justWhite);
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+.product-detail_title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
