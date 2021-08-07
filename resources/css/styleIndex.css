@@ -253,3 +253,48 @@ main .comisiones-update p {
   line-height: 1.8rem;
   color: #808080;
 }
+.product-detail_card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: var(--warmBlackMas1);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail_card_icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-bottom: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.clock {
+  background-image: url("../assets/icons/clock.svg");
+}
+.product-card_title {
+  margin-bottom: 7px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--justWhite);
+}
+.eye {
+  background-image: url("../assets/icons/eye.svg");
+}
+.product-card_body {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
+}
+.money {
+  background-image: url("../assets/icons/dollar-sign.svg");
+}
+.check {
+  background-image: url("../assets/icons/check-circle.svg");
+}
