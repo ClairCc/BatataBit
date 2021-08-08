@@ -323,7 +323,7 @@ main .comisiones-update p {
   width: 100%;
   min-width: 320px;
   padding-bottom: 70px;
-  background-color: var(--justWhite);
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -419,7 +419,7 @@ main .comisiones-update p {
   font-family: "DM Sans", sans-serif;
   font-weight: bold;
   font-size: 1.4rem;
-  background-color: var(--offWhite);
+  background-color: var(--justWhite);
   border-radius: 8px;
   align-self: center;
   display: flex;
