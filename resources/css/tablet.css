@@ -1,0 +1,21 @@
+.idk {
+  order: 1;
+}
+.idk2 {
+  order: 2;
+}
+.table-update {
+  order: 3;
+  width: 50%;
+}
+.main-container_table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
