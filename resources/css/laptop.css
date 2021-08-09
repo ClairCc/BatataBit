@@ -30,3 +30,9 @@
   width: 100%;
   flex-wrap: wrap;
 }
+.rigth img {
+  width: 10vw;
+}
+.bitcoing-container_img {
+  background-image: url("../assets/img/bitcoinbaby2x.png");
+}
